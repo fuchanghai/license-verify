@@ -1,6 +1,9 @@
 # license-verify
 license 证书校验
   
+  
+  证书生成 ：https://github.com/fuchanghai/license-creator.git
+  
 1.单机模式
 用狗 即加密狗
 手持u盘，盘里面是证书，验证通过才能操作
