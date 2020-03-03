@@ -40,7 +40,7 @@ public class LicenseCheckInterceptor implements HandlerInterceptor {
         if (handler instanceof HandlerMethod) {
             HandlerMethod handlerMethod = (HandlerMethod) handler;
             Method method = handlerMethod.getMethod();
-            if (method.getAnnotation(GxLicense.class)!= null||method.getDeclaringClass().getAnnotation(GxLicense.class)!=null) {
+            if (method.getAnnotation(ChLicense.class)!= null||method.getDeclaringClass().getAnnotation(ChLicense.class)!=null) {
 
                 LicenseVerify licenseVerify = new LicenseVerify();
                 //校验证书是否有效

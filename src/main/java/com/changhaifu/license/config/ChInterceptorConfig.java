@@ -15,7 +15,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  * @date created on 下午 4:57 2019-9-26
  */
 @Configuration
-public class GxInterceptorConfig implements WebMvcConfigurer {
+public class ChInterceptorConfig implements WebMvcConfigurer {
 
     @Bean
     public LicenseCheckInterceptor getLicenseCheckInterceptor() {
